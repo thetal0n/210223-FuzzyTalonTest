@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 389c8ec5dde8794ea74ef923e5c14226
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: cebc58972b8ea64f8776c895a1ba59ce
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,8 +49,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 73c01be5918103468cf13189139d235a
     GuidInternal: 
-    m_lastTime: -8585874158074775808
-    List: []
+    m_lastTime: -8585873310084775808
+    List:
+    - name: Game
+      guid: eecce2fea84cba4aa50f1c0e853c815c
+      id: 702482391
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game
+        ObjectType: 7
+      Path: Default Work Unit/Game
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -59,8 +68,33 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8ebefe692e1995478b41815ff1d78b69
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585873310094775808
     List: []
+  - PhysicalPath: Events/Game.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Game
+      ObjectType: 12
+    ParentPath: Default Work Unit/Game
+    guid: 673b7303198596478cac04f31b258c80
+    GuidInternal: 
+    m_lastTime: -8585873310094775808
+    List:
+    - name: BallHit
+      guid: 1e45a3d4fddc7546ba69adfcc745f1f0
+      id: 4066630945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game
+        ObjectType: 12
+      - ElementName: BallHit
+        ObjectType: 3
+      Path: Default Work Unit/Game/BallHit
+      maxAttenuation: 0
+      maxDuration: 2.798427
+      minDuration: 0.65889
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -69,7 +103,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 90997c269b818940951a40577e623daf
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -79,7 +113,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: cb005b1b97d9004588e9812d8bb82dcb
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -89,7 +123,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 70add294bb30dd45b4ab3cd723048634
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -99,8 +133,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: bf6fb08af99e7145a194cd9116803203
     GuidInternal: 
-    m_lastTime: -8585874158074775808
+    m_lastTime: -8585874156354775808
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /210223-FuzzyTalonTest_WwiseProject
+  - /210223-FuzzyTalonTest_WwiseProject/Events
+  - /210223-FuzzyTalonTest_WwiseProject/Events/Default Work Unit
+  - /210223-FuzzyTalonTest_WwiseProject/Events/Default Work Unit/Game
+  - /210223-FuzzyTalonTest_WwiseProject/SoundBanks
+  - /210223-FuzzyTalonTest_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

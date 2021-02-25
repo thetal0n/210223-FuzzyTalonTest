@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4066630945	BallHit			\Default Work Unit\Game\BallHit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	398507514	CrashesImpacts-Other-Rock-C	Y:\Documents\Unity Testing\200223-FuzzyTalonTesting\210223-FuzzyTalonTest\210223-FuzzyTalonTest_WwiseProject\.cache\Windows\SFX\CrashesImpacts-Other-Rock-C_CE90D473.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game\BallHits\CrashesImpacts-Other-Rock-C		295408
+	446126306	boulder_impact_on_stones_14	Y:\Documents\Unity Testing\200223-FuzzyTalonTesting\210223-FuzzyTalonTest\210223-FuzzyTalonTest_WwiseProject\.cache\Windows\SFX\boulder_impact_on_stones_14_6E6D93A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game\BallHits\boulder_impact_on_stones_14		204864
+

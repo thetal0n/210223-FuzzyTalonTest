@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/talon/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Unity Testing/200223-FuzzyTalonTesting/210223-FuzzyTalonTest/210223-FuzzyTalonTest_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/talon/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Unity Testing/200223-FuzzyTalonTesting/210223-FuzzyTalonTest/210223-FuzzyTalonTest_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/talon/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Unity Testing/200223-FuzzyTalonTesting/210223-FuzzyTalonTest/210223-FuzzyTalonTest_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/talon/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Unity Testing/200223-FuzzyTalonTesting/210223-FuzzyTalonTest/210223-FuzzyTalonTest_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="702482391" Language="SFX" Hash="3436266578">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game</ObjectPath>
+			<ShortName>Game</ShortName>
+			<Path>Game.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4066630945" Name="BallHit" ObjectPath="\Events\Default Work Unit\Game\BallHit" DurationType="OneShot" DurationMin="0.658890" DurationMax="2.798427">
+					<IncludedMemoryFiles>
+						<File Id="398507514" Language="SFX">
+							<ShortName>CrashesImpacts-Other-Rock-C.wav</ShortName>
+							<Path>SFX/CrashesImpacts-Other-Rock-C_CE90D473.wem</Path>
+						</File>
+						<File Id="446126306" Language="SFX">
+							<ShortName>boulder_impact_on_stones_14.wav</ShortName>
+							<Path>SFX/boulder_impact_on_stones_14_6E6D93A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

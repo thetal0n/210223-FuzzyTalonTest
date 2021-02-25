@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03733B67-8519-4796-8CAC-04F31B258C80}" SchemaVersion="97" RootDocumentID="{69FEBE8E-192E-4795-8B41-815FF1D78B69}">
+	<Events>
+		<WorkUnit Name="Game" ID="{03733B67-8519-4796-8CAC-04F31B258C80}" OwnerID="{69FEBE8E-192E-4795-8B41-815FF1D78B69}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="BallHit" ID="{D4A3451E-DCFD-4675-BA69-ADFCC745F1F0}">
+					<ChildrenList>
+						<Action Name="" ID="{8C5512D8-C5E1-4AF4-9E82-39B74EE510F0}" ShortID="612947612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BallHits" ID="{AC3CBEC7-600B-4AAC-84D8-6FF0F56436CD}" WorkUnitID="{D29B5698-EE64-4AD5-A21F-4A67609A3D85}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
