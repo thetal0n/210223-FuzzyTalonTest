@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PanelScript : MonoBehaviour
 {
 
-    public GameObject text;
+    public GameObject textinput;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,6 @@ public class PanelScript : MonoBehaviour
     public void OnClickRun()
     {
         SceneManager.LoadScene(1);
-        //text.text;
+       // String temp = textinput.GetComponent(text);
     }
 }
