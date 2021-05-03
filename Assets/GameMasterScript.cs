@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMasterScript : MonoBehaviour
 {
     private float masterX = 0;
-    private float masterY = 0;
+    // private float masterY = 0;
     public GameObject cube;
     private Vector3 spawnPos;
     public float boundScaling = 10;
@@ -32,9 +33,14 @@ public class GameMasterScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (Input.GetKeyDown("escape"))
+        {
+            Debug.Log("Attempted to load scene 0");
+            SceneManager.LoadScene(0);
+        }
         tick();
         spawnPos.x = masterX;
-        spawnPos.y = -(masterX * masterX + 4 * masterX + 3);
+        spawnPos.y = FuncInput.funcA * masterX * masterX + FuncInput.funcB * masterX + FuncInput.funcC;
         // Instantiate a cube
         if (spawnPos.x <= 20 && spawnPos.x >= -20 && spawnPos.y > -20 && spawnPos.y < 20)
         {
@@ -46,4 +52,5 @@ public class GameMasterScript : MonoBehaviour
     {
         masterX += .1f;
     }
+
 }
