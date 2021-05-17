@@ -2,26 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PanelScript : MonoBehaviour
 {
 
-    public GameObject textinput;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public InputField fieldA;
+    public InputField fieldB;
+    public InputField fieldC;
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnClickRun()
     {
         SceneManager.LoadScene(1);
-       // String temp = textinput.GetComponent(text);
+        FuncInput.funcA = int.Parse(fieldA.text);
+        FuncInput.funcB = int.Parse(fieldB.text);
+        FuncInput.funcC = int.Parse(fieldC.text);
     }
+}
+
+public static class FuncInput
+{
+    public static int funcA;
+    public static int funcB;
+    public static int funcC;
 }
